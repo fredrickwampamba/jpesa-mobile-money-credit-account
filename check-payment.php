@@ -3,7 +3,7 @@ if (isset($_POST['tid'])) {
 	$transactionID = $_POST['tid'];
 	$DATA   =   '<?xml version="1.0" encoding="ISO-8859-1"?>
 	                     <g7bill>
-	                       <_key_>9D8E65F51FDA7282BAAB1CCDCCBD6325</_key_>
+	                       <_key_>your_key</_key_>
 	                       <cmd>account</cmd>
 	                       <action>info</action>
 	                       <tid>'.$transactionID.'</tid>

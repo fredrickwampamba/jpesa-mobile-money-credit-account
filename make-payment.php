@@ -3,7 +3,7 @@
 if (isset($_POST['make-payment-online'])) {
 	$phone_number = $_REQUEST['phone'];
 	$amount_to_be_paid = $_REQUEST['amount'];
-	$key = "9D8E65F51FDA7282BAAB1CCDCCBD6325";
+	$key = "your_key";
 	$DATA   =   '<?xml version="1.0" encoding="ISO-8859-1"?>
 	                     <g7bill>
 	                       <_key_>'.$key.'</_key_>
